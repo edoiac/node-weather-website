@@ -10,6 +10,7 @@ hbs.registerPartials(partialsPath);
 // setup express
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3000;
 
 // setup path for static files
 const publicPath = path.join(__dirname, '../public');
@@ -107,7 +108,7 @@ sass.render({
 });
 
 
-app.listen('3000', () => {
-    console.log('server started! test');
+app.listen(port, () => {
+    console.log(`server started! running on ${port}`);
 });
 
