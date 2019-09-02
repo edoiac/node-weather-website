@@ -1,0 +1,27 @@
+@import "404";
+
+.app {
+    &__name {
+        color: #d23b1a;
+        text-transform: uppercase;
+        font: 20px "Helvetica Neue";
+    }
+
+    &__img {
+        width: 250px;
+    }
+
+    &__author {
+        color: #d23b1a;
+        font: 16px "Helvetica Neue";
+        font-weight: bold;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.wait {
+    width: 50px;
+}

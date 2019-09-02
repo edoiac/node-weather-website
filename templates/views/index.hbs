@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+{{>header}}
+<input type="text" value="Milano">
+<button class="search" type="button">search</button>
+<div>
+    <img class="wait hidden" src="/img/wait-feedback.gif" alt="wait-gif">
+</div>
+<p>The weather forecast is: <span class="result"></span></p>
+{{>footer}}
+<script src="js/app.js"></script>
+</body>
+</html>
