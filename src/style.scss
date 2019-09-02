@@ -1,10 +1,12 @@
+@import "common/colors";
 @import "404";
+@import "common/states";
+@import "common/structure";
 
 .app {
     &__name {
-        color: #d23b1a;
+        color: #4f5fd2;
         text-transform: uppercase;
-        font: 20px "Helvetica Neue";
     }
 
     &__img {
@@ -18,10 +20,6 @@
     }
 }
 
-.hidden {
-    display: none !important;
-}
-
 .wait {
-    width: 50px;
+    width: 30px;
 }

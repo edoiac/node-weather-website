@@ -1,0 +1,19 @@
+body {
+    color: $black;
+    font-family: "Helvetica Neue", sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+a:visited, a:focus {
+    color: $black;
+}
+
+a {
+    text-decoration: none;
+}
